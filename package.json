@@ -9,7 +9,7 @@
     "start": "npm run build && node index.js",
     "lint": "node ./node_modules/eslint/bin/eslint.js .",
     "dev": "DEBUG=wdots npm run build && node ./node_modules/nodemon/bin/nodemon.js index.js",
-    "build": "./node_modules/node-sass/bin/node-sass styles/main.scss --output build/css"
+    "build": "./node_modules/node-sass/bin/node-sass styles/*.scss --output build/css"
   },
   "author": "Simon Adcock",
   "license": "ISC",
