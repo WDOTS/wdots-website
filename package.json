@@ -1,20 +1,23 @@
 {
   "name": "wdots-website",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Web Devs of the Shire website",
+  "repository": "https://github.com/WDOTS/wdots-website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=wdots node index.js",
-    "lint": "node ./node_modules/eslint/bin/eslint.js ."
+    "start": "node index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "dev": "DEBUG=wdots node ./node_modules/nodemon/bin/nodemon.js index.js"
   },
-  "author": "",
+  "author": "Simon Adcock",
   "license": "ISC",
   "dependencies": {
     "debug": "^2.2.0",
     "express": "^4.13.4"
   },
   "devDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "nodemon": "^1.8.1"
   }
 }
