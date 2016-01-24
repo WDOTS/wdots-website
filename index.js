@@ -1,5 +1,5 @@
 const debug = require('debug')('wdots');
-const app = require('./lib/server');
+const app = require('./lib/app');
 const port = 9000;
 
 app.listen(port, () => {
