@@ -8,17 +8,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "node ./node_modules/eslint/bin/eslint.js .",
-    "dev": "DEBUG=wdots node ./node_modules/nodemon/bin/nodemon.js index.js"
+    "dev": "DEBUG=wdots node ./node_modules/nodemon/bin/nodemon.js index.js",
+    "build": "./node_modules/node-sass/bin/node-sass styles/main.scss --output build/css"
   },
   "author": "Simon Adcock",
   "license": "ISC",
   "dependencies": {
     "debug": "^2.2.0",
     "express": "^4.13.4",
-    "hogan.js": "^3.0.2"
+    "hogan.js": "^3.0.2",
+    "serve-static": "^1.10.2"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
+    "node-sass": "^3.4.2",
     "nodemon": "^1.8.1"
   }
 }
