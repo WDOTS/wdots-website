@@ -15,9 +15,17 @@ When server is running, you can access the website at [http://localhost:9000](ht
 
 ### Developer mode
 
+Start the server:
+
 ```
 $ npm run dev
 ```
+
+Run the SCSS watch task:
+ 
+ ```
+ $ npm run watch
+ ```
 
 ## Production mode
 
