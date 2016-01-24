@@ -36,7 +36,8 @@ $ npm start
 ## Add a new page
 
 1. Add `yourname.htm` file to the `/views` directory
-2. You can access your new file by browsing to http://localhost/yourname 
+2. Add `yourname.scss` file to the `/styles` directory 
+3. You can access your new file by browsing to http://localhost/yourname 
 
 ## Lint
 
