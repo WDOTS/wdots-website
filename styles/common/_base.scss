@@ -3,3 +3,9 @@ $body-font: $BASE_FONT;
 body {
   font-family: $body-font;
 }
+
+header {
+  background-image: url('/assets/wdots_banner_mobile.png');
+  background-repeat: no-repeat;
+  height: 120px;
+}
