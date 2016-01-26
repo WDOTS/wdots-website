@@ -3,7 +3,32 @@ li {
   margin-bottom: 20px;
 }
 
-img {
+li > div {
+  position: relative;
   width: 194px;
   height: 194px;
+}
+
+li > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+li > div > h2 {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0 7px;
+  font-size: 1em;
+  background: rgb(15, 15, 15);
+  color: #ffffff;
+
+  opacity: 0.2;
+  transition: opacity 0.4s;
+}
+
+li > div:hover > h2 {
+  opacity: 0.8;
 }
