@@ -7,6 +7,7 @@ li > div {
   position: relative;
   width: 194px;
   height: 194px;
+  overflow: hidden;
 }
 
 li > div > img {
@@ -17,7 +18,7 @@ li > div > img {
 
 li > div > h2 {
   position: absolute;
-  bottom: 0;
+  bottom: -29px;
   margin: 0;
   width: 100%;
   text-align: center;
@@ -26,12 +27,11 @@ li > div > h2 {
   background: rgb(15, 15, 15);
   color: #ffffff;
 
-  opacity: 0.2;
-  transition: opacity 0.4s;
+  transition: bottom 0.4s;
 }
 
 li > div:hover > h2 {
-  opacity: 0.8;
+  bottom: 0;
 }
 
 h3 {
