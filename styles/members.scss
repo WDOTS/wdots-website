@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+li > div {
+  position: relative;
+  width: 194px;
+  height: 194px;
+  overflow: hidden;
+}
+
+li > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+li > div > h2 {
+  position: absolute;
+  bottom: -29px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0 7px;
+  font-size: 1em;
+  background: rgb(15, 15, 15);
+  color: #ffffff;
+
+  transition: bottom 0.4s;
+}
+
+li > div:hover > h2 {
+  bottom: 0;
+}
+
+h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 1em;
+}
