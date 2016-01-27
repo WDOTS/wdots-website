@@ -17,8 +17,16 @@ When server is running, you can access the website at [http://localhost:9000](ht
 
 Start the server:
 
+*nix:
+
 ```
-$ npm run dev
+$ DEBUG=wdots npm run dev
+```
+
+Windows:
+
+```
+$ set DEBUG=wdots npm run dev
 ```
 
 Run the SCSS watch task:
