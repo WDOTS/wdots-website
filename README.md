@@ -15,21 +15,19 @@ When server is running, you can access the website at [http://localhost:9000](ht
 
 ### Developer mode
 
-Start the server:
-
-*nix:
+#### Start the server (*nix):
 
 ```
 $ DEBUG=wdots npm run dev
 ```
 
-Windows:
+#### Start the server (Windows):
 
 ```
 $ set DEBUG=wdots npm run dev
 ```
 
-Run the SCSS watch task:
+#### Run the SCSS watch task:
  
  ```
  $ npm run watch
