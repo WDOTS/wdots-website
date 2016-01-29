@@ -45,6 +45,13 @@ $ npm start
 2. Add `yourname.scss` file to the `/styles` directory 
 3. You can access your new file by browsing to http://localhost/yourname 
 
+## index.htm
+
+`/views/index.htm` is special. This markup wraps the markup from the `/views/*.htm` files. Effectively,
+this means that the content of the page you are on will replace the `{{{content}}}` tag in `index.htm`.
+
+So if you want the header and footer to appear on every page, you can put them in `index.htm`.
+
 ## Lint
 
 Ensure code is fully linted before pushing

@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <title>Web Devs of the Shire :: WDOTS</title>
   <link rel="stylesheet" href="/build/css/main.css">
@@ -6,32 +7,55 @@
 </head>
 <body>
 
-<header>
-  <h1>
-    <a href="/" class="logo"></a>
-  </h1>
-  <nav>
-    <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/past">Past Events</a></li>
-    </ul>
-  </nav>
-</header>
-
-    <div>
+<div class="wrapper">
+  <div class="headerWrapper">
     <header>
-
-         <h1>.webdevs.oftheshire{}</h1>
-
-
-        <ul class="headerNav">
-            <li>About</li>
-            <li>Events</li>
-            <li>Members</li>
-
-                </ul>  
+      <img src="#" alt="WDOTS Logo" class="logo">
+      <ul class="headerNav">
+        <li><a href="/about">About</a></li>
+        <li><a href="/past">Past Events</a></li>
+        <li><a href="/members">Members</a></li>
+      </ul>
     </header>
+  </div>
+  {{{content}}
+  <div class="push"></div>
 </div>
+
+<footer id="footer">
+  <div class="footerContainer">
+
+    <div class="imageContainer footerColumn">
+      <img class="WDOTSFooterLogo" src="/assets/wdots_circle.jpg" alt="WDOTS Circle Logo">
+    </div>
+
+    <div class="footerLocation footerColumn">
+      <h3 class="footerHeading">Location</h3>
+      <div class="footerText">
+        <p>The Bull Hotel
+          <br> Oxford Rd
+          <br> Gerrards Cross
+          <br> Buckinghamshire
+          <br> SL9 7PA</p>
+      </div>
+    </div>
+
+    <div class="footerColumn footerLinks">
+      <h3 class="footerHeading">Find on</h3>
+      <ul class="socialLinks footerText">
+        <li>Meetup</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Youtube</li>
+      </ul>
+    </div>
+
+    <div class="footerColumn footerDots">
+      <img src="/assets/wdots_dots.jpg">
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
