@@ -12,50 +12,11 @@ body {
   font-family: $body-font;
 }
 
-/*HEADER-------------------------*/
-header {
-	height: 80px;
-	line-height: 80px;
-	letter-spacing: 0.6px;
-	font-family: 'Montserrat';
-	background-color: #333333;
-	border-bottom: solid 6px #80bd01;
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
 }
-
-.headerNav {
-	width: 40%;
-	float: right;
-	list-style: none;
-	padding: 0;
-}
-
-header {
-
-	li {
-		float: left;
-		padding: 0 5%;
-	}
-
-	a {
-		text-decoration: none;
-		color: #fff;
-	}
-
-	a:hover {
-		color: #80bd01;
-	}
-}
-
-h1 {
-	display: inline-block;
-	margin: 0;
-	color: #80bd01; 
-}
-
-.logo_white {
-	color: #fff;
-}
-/*END HEADER-----------------------*/
 
 .wrapper {
   min-height: 100%;
